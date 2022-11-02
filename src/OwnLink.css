@@ -1,0 +1,15 @@
+.OwnLink {
+    color: gray;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.OwnLink:hover {
+    color: white;
+    font-size: 40px;
+}
+
+.OwnLink:focus {
+    color: white;
+    font-size: 40px;
+}
