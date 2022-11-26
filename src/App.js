@@ -8,7 +8,7 @@ function App() {
       <Spacer y={15}/>
       <center><Container fluid>
         <Row justify="center" align="center">
-          <Text h1>My name is Vladimir</Text>
+          <Text h1>My name is Vladimir.</Text>
         </Row>
       </Container></center>
 
@@ -22,12 +22,14 @@ function App() {
         </center>
         <Box>
         <Row justify="center" align="center">
-          <Text h4>
-            I was born in the Russian Federation. I am 17 y.o, I am high school student. I self-taught software dev and work with various frameworks.
-            <br/>
-            Also at the moment don't have work which could be associated with my hobby. So if you need dev for low pay you could contact to me :)
-          </Text>
-          </Row>
+          <center>
+            <Text h4>
+              I am 17 y.o. I self-taught software dev and work with various technologies.
+              <br/>
+              Also at the moment don't have work which could be associated with my hobby. So if you need dev for low pay you could contact to me :)
+            </Text>
+          </center>
+        </Row>
         </Box>
         </Container>
 
@@ -42,7 +44,7 @@ function App() {
           <Grid.Container gap={2} justify="center">
           <OwnLink name="OpenVK" url="https://github.com/openvk" />
             <Spacer/>
-            <OwnLink name="razoom.art" url=""/>
+            <OwnLink name="razoom.art" url="https://github.com/razoomart"/>
           </Grid.Container>
         </Container>
 
@@ -65,15 +67,15 @@ function App() {
              <Spacer/>
              <OwnLink name="Matrix" url="https://matrix.to/#/@vlapskiy:matrix.org" />
              <Spacer/>
-             <OwnLink name="E-Mail" url="mailto:vladimirlapskiy@icloud.com" />
+             <OwnLink name="E-Mail" url="mailto:me@vlapsk1y.dev" />
              <Spacer/>
              <OwnLink name="Spotify" url="https://open.spotify.com/user/9zmng96vufuviy756p92tb92n" />
             </Grid.Container>
         </Container>
-        <Spacer y={8}/>
+        <Spacer y={4}/>
         <center>
         <Text color="#474646" h5>
-            All peace.
+            2022-{new Date().getFullYear()} © by Vladimir Lapskiy
           </Text>
         </center>
     </div>
