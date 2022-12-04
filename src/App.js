@@ -65,8 +65,6 @@ function App() {
              <Spacer/>
              <OwnLink name="Matrix" url="https://matrix.to/#/@vlapskiy:matrix.org" />
              <Spacer/>
-             <OwnLink name="E-Mail" url="mailto:me@vlapsk1y.dev" />
-             <Spacer/>
              <OwnLink name="Spotify" url="https://open.spotify.com/user/9zmng96vufuviy756p92tb92n" />
             </Grid.Container>
         </Container>
