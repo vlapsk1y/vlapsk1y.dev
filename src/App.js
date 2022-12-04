@@ -43,8 +43,6 @@ function App() {
           </center>
           <Grid.Container gap={2} justify="center">
           <OwnLink name="OpenVK" url="https://github.com/openvk" />
-            <Spacer/>
-            <OwnLink name="razoom.art" url="https://github.com/razoomart"/>
           </Grid.Container>
         </Container>
 
