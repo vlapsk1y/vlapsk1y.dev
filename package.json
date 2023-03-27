@@ -1,10 +1,9 @@
 {
-  "name": "vlapsk1y.dev",
-  "homepage": "https://vlapsk1y.github.io",
+  "name": "new-vlapsk1y",
   "version": "0.1.0",
+  "homepage": "https://vlapsk1y.github.io",
   "private": true,
   "dependencies": {
-    "@nextui-org/react": "^1.0.0-beta.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,9 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",  
+  "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
