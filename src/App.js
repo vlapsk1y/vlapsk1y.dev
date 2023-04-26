@@ -10,9 +10,15 @@ function App() {
       </div>
     </section>
     <section>
+      <h1>A member</h1>
+      <div className="list">
+      <span>of <a href="https://razoomart.ru">razoom.art</a> as almost full-stack dev & devops</span>
+      </div>
+    </section>
+    <section>
       <h1>About me</h1>
       <div className="nicknames">
-      <span>I am self-taught software developer (Swift, Java, C# and etc).</span>
+      <span>I am self-taught software developer (Swift, Java, C# and etc).<br/>You can find more info on my github.</span>
       </div>
     </section>
     <section>
